@@ -7,17 +7,18 @@ More specifically one of the main objectives of this dissertation is to examine 
 The forecasts are monthly and their time horizon is 12 months ahead.
 The brands for which the sales forecasting is performed are four (TOYOTA, AUDI, OPEL, FORD). The predictions concern aggregatively all the passenger vehicle models of each brand.
 
-The following steps ae followed
+The following steps are followed
 
-### Data Importing and Manipulation
-#### Import Monthly Sales Data
+### 1 Data Importing and Manipulation
+#### 1.1 Import Monthly Sales Data
 
 
-#### Import Google Trends and Economic Data
+#### 1.2 Import Google Trends and Economic Data
+At the notebook below I import the rest of the data needed as independent variables for the predictions
 https://github.com/loucz/Automotive-Sales-Forecasting/blob/main/Data_Import.ipynb
 
 
-### Preliminary Analysis
+### 2 Preliminary Analysis
 
 
-### Predictions
+### 3 Forecasting 
