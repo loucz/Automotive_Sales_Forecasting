@@ -11,10 +11,10 @@ The following steps are followed:
 
 ### 1 Data Importing and Manipulation
 * #### 1.1 Import Monthly Sales Data
-In [Data_Sales_collection.ipynb](Notebooks/Sales_data_collection.ipynb) I imported all the monthly sales data for the selected car brands from multiple excel files downloaded in a folder into one.
+  In [Data_Sales_collection.ipynb](Notebooks/Sales_data_collection.ipynb) I imported all the monthly sales data for the selected car brands from multiple excel   files downloaded in a folder into one.
 
 * #### 1.2 Import Google Trends and Economic Data
-At the [Data_Import.ipynb](Notebooks/Data_Import.ipynb) notebook I import the rest of the data needed as independent variables for the predictions
+  At the [Data_Import.ipynb](Notebooks/Data_Import.ipynb) notebook I import the rest of the data needed as independent variables for the predictions
 
 
 ### 2 Preliminary Analysis
