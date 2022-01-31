@@ -22,4 +22,4 @@ In this notebook [Preliminary_Anlysis.ipynb](Notebooks/Preliminary_Analysis.ipyn
 
 
 ### 3 Forecasting 
-In this notebook [Predictions.ipynb](Notebooks/Predictions.ipynb) I runned the forecasts for 12 months time horizon. For each car brand I built 12 predictive models using various forecasting methods including Exponential Smoothing, Arima, AutoRegression, Decision Tree Regression, Random Forest Regression, Linear Regression and Support Vector Regression. I didn't perform hyperparameter tuning (GridSearch etc.) except only in Auto Arima and Auto Exponential Smoothing which the hyperparameter tuning was integrated at the package.
+At the [Predictions.ipynb](Notebooks/Predictions.ipynb) notebook I runned the forecasts for 12 months time horizon. For each car brand I built 12 predictive models using various forecasting methods including Exponential Smoothing, Arima, AutoRegression, Decision Tree Regression, Random Forest Regression, Linear Regression and Support Vector Regression. I didn't perform hyperparameter tuning (GridSearch etc.) except only in Auto Arima and Auto Exponential Smoothing which the hyperparameter tuning was integrated at the package.
