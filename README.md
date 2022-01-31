@@ -28,6 +28,6 @@ At the [Predictions.ipynb](Notebooks/Predictions.ipynb) notebook I runned the fo
 After running the forecasts I managed to built some quite robust models (mainly for the TOYOTA brand), but the most important is that it became obvious the positive contribution of Google Trends data to the accuracy of the predictive models. In one case an almost 18% improvement of accuracy was accomplished by inserting Google trends Data in the model.
 
 
-Below you can see a graph of the predicted (with the best performing model 5) and real values of the TOYOTA automotive sales.
+Below you can see a graph of the predicted (with the best performing model 5) and actual values of the TOYOTA automotive sales.
 
 ![TOYOTA_model05](https://user-images.githubusercontent.com/95256482/151883353-6b7bc584-8c74-4837-ae09-ef9de60862a5.png)
