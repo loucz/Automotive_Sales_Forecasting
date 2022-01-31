@@ -10,14 +10,16 @@ The brands for which the sales forecasting is performed are four (TOYOTA, AUDI, 
 The following steps are followed:
 
 ### 1 Data Importing and Manipulation
-#### 1.1 Import Monthly Sales Data
+* #### 1.1 Import Monthly Sales Data
 In [Data_Sales_collection.ipynb](Notebooks/Sales_data_collection.ipynb) I imported all the monthly sales data for the selected car brands from multiple excel files downloaded in a folder into one.
 
-#### 1.2 Import Google Trends and Economic Data
+* #### 1.2 Import Google Trends and Economic Data
 At the [Data_Import.ipynb](Notebooks/Data_Import.ipynb) notebook I import the rest of the data needed as independent variables for the predictions
 
 
 ### 2 Preliminary Analysis
 In this notebook [Preliminary_Anlysis.ipynb](Notebooks/Preliminary_Analysis.ipynb) I calculated mostly correlations between the variables to get insights about their predictive power. I also tried to find the optimal lag perfroming statsmodels cross-correlation 
 
+
 ### 3 Forecasting 
+In this notebook [Predictions.ipynb](Notebooks/Predictions.ipynb) I runned the forecasts for 12 months time horizon. For each car brand I built 12 predictive models using various forecasting methods including Exponential Smoothing, Arima, AutoRegression, Decision Tree Regression, Random Forest Regression, Linear Regression and Support Vector Regression. I didn't perform hyperparameter tuning (GridSearch etc.) except only in Auto Arima and Auto Exponential Smoothing which the hyperparameter tuning was integrated at the package.
