@@ -25,7 +25,7 @@ In this notebook [Preliminary_Anlysis.ipynb](Notebooks/Preliminary_Analysis.ipyn
 At the [Predictions.ipynb](Notebooks/Predictions.ipynb) notebook I runned the forecasts for 12 months time horizon. For each car brand I built 12 predictive models using various forecasting methods including Exponential Smoothing, Arima, AutoRegression, Decision Tree Regression, Random Forest Regression, Linear Regression and Support Vector Regression. I didn't perform hyperparameter tuning (GridSearch etc.) except only in Auto Arima and Auto Exponential Smoothing which the hyperparameter tuning was integrated at the package. The data were splitted in a train and a test set, the metrics that were used to measure the accuracy of the forecasts were the Root Mean Square Error, the Mean Absolute Error and the Mean Absolute Percentage Error
 
 ## Conclusion
-After running the forecasts I managed to built some quite robust models (mainly for the TOYOTA brand), but the most important is that it became obvious the positive contribution of Google Trends data to the accuracy of the predictive models.
+After running the forecasts I managed to built some quite robust models (mainly for the TOYOTA brand), but the most important is that it became obvious the positive contribution of Google Trends data to the accuracy of the predictive models. In one case an almost 18% improvement of accuracy was accomplished by inserting Google trends Data in the model.
 
 
 Below you can see a graph of the predicted (with the best performing model 5) and real values of the TOYOTA automotive sales.
