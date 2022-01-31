@@ -11,13 +11,13 @@ The following steps are followed:
 
 ### 1 Data Importing and Manipulation
 #### 1.1 Import Monthly Sales Data
-In [Data_Sales_collection.ipynb](Automotive-Sales-Forecasting/Notebooks/Sales_data_collection.ipynb) I imported all the monthly sales data for the selected car brands from multiple excel files downloaded in a folder into one.
+In [Data_Sales_collection.ipynb](Notebooks/Data_Import.ipynb) I imported all the monthly sales data for the selected car brands from multiple excel files downloaded in a folder into one.
 
 #### 1.2 Import Google Trends and Economic Data
-At the [Data_Import.ipynb](https://github.com/loucz/Automotive-Sales-Forecasting/blob/main/Data_Import.ipynb) notebook I import the rest of the data needed as independent variables for the predictions
+At the [Data_Import.ipynb](Notebooks/Sales_data_collection.ipynb) notebook I import the rest of the data needed as independent variables for the predictions
 
 
 ### 2 Preliminary Analysis
-In this notebook [Preliminary_Anlysis.ipynb](https://github.com/loucz/Automotive-Sales-Forecasting/blob/4bd6e59c6e074ae9e475d367d775084efb6467d2/Preliminary_Analysis.ipynb) I calculated mostly correlations between the variables to get insights about their predictive power. I also tried to find the optimal lag perfroming statsmodels cross-correlation 
+In this notebook [Preliminary_Anlysis.ipynb](Notebooks/Preliminary_Analysis.ipynb) I calculated mostly correlations between the variables to get insights about their predictive power. I also tried to find the optimal lag perfroming statsmodels cross-correlation 
 
 ### 3 Forecasting 
