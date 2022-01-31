@@ -14,8 +14,8 @@ The following steps are followed
 
 
 #### 1.2 Import Google Trends and Economic Data
-At the notebook below I import the rest of the data needed as independent variables for the predictions
-[Data_Import.ipynb](loucz/Automotive-Sales-Forecasting/Data_Import.ipynb)
+At the [Data_Import.ipynb](https://github.com/loucz/Automotive-Sales-Forecasting/blob/main/Data_Import.ipynb) notebook I import the rest of the data needed as independent variables for the predictions
+
 
 
 ### 2 Preliminary Analysis
