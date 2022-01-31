@@ -18,6 +18,6 @@ At the [Data_Import.ipynb](https://github.com/loucz/Automotive-Sales-Forecasting
 
 
 ### 2 Preliminary Analysis
-In this notebbok I calculated mostly correlations between the variables to get insights about their predictive power. I also tried to find the optimal lag perfroming statsmodels cross-correlation 
+In this notebook [Preliminary_Anlysis.ipynb](https://github.com/loucz/Automotive-Sales-Forecasting/blob/4bd6e59c6e074ae9e475d367d775084efb6467d2/Preliminary_Analysis.ipynb) I calculated mostly correlations between the variables to get insights about their predictive power. I also tried to find the optimal lag perfroming statsmodels cross-correlation 
 
 ### 3 Forecasting 
