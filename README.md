@@ -31,3 +31,6 @@ After running the forecasts I managed to built some quite robust models (mainly 
 Below you can see a graph of the predicted (with the best performing model 5) and actual values of the TOYOTA automotive sales.
 
 ![TOYOTA_model05](https://user-images.githubusercontent.com/95256482/151883353-6b7bc584-8c74-4837-ae09-ef9de60862a5.png)
+
+
+You can find the full document of my dissertation in greek at this [https://dspace.lib.ntua.gr/xmlui/handle/123456789/54664](https://dspace.lib.ntua.gr/xmlui/handle/123456789/54664).
